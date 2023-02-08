@@ -27,6 +27,9 @@ document.querySelector("#get-data").addEventListener("click", ()=>{
                 document.querySelector(".card-box").innerHTML += `
                 <div class="card" id="card">
                 <img src=${item.image} />
+                <button>store</button>
+                <span class="icon"><i class="fa-regular fa-heart"></i></span>
+                <span class="vip"><i class="fa-solid fa-gem"></i></span>
             <h3>${item.title.slice(0, 45)}</h3>
             <p>${item.description.slice(0, 20)}...</p>
             <p>${item.price} <span>$</span></p>

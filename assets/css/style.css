@@ -41,11 +41,61 @@
   align-items: center;
   border-radius: 5px;
   background-color: rgba(236, 239, 241, 0.341);
+  position: relative;
+}
+.card-box .card:hover {
+  box-shadow: inset;
   cursor: pointer;
+  box-shadow: 5px 2px 14px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 5px 2px 14px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 5px 2px 14px 0px rgba(0, 0, 0, 0.75);
+}
+.card-box .card .icon {
+  display: flex;
+  position: absolute;
+  left: 210px;
+}
+.card-box .card .icon i {
+  color: red;
+  font-size: 30px;
+  cursor: pointer;
+}
+.card-box .card .icon i:hover {
+  font-weight: bold;
+  color: rgb(247, 28, 28);
+}
+.card-box .card .vip {
+  display: flex;
+  position: absolute;
+  left: 212px;
+  top: 280px;
+}
+.card-box .card .vip i {
+  color: rgb(113, 111, 111);
+  font-size: 30px;
+  cursor: pointer;
+}
+.card-box .card .vip i:hover {
+  font-weight: bold;
+  color: rgba(198, 175, 46, 0.911);
 }
 .card-box .card img {
   width: 150px;
   height: 180px;
+  border-radius: 10px;
+}
+.card-box .card img:hover {
+  width: 180px;
+  height: 210px;
+  transition: 0.3s;
+}
+.card-box .card button {
+  background-color: rgba(0, 0, 255, 0.76);
+  width: 70px;
+  height: 25px;
+  position: absolute;
+  font-size: 16px;
+  top: 153px;
 }
 .card-box .card h3 {
   text-align: center;
