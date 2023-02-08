@@ -27,6 +27,9 @@
   display: flex;
   align-items: center;
   flex-wrap: wrap;
+  background-color: rgba(245, 245, 220, 0.444);
+  border-radius: 10px;
+  padding: 50px 20px;
 }
 .card-box .card {
   width: 250px;

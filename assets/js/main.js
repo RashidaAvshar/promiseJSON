@@ -25,8 +25,8 @@ document.querySelector("#get-data").addEventListener("click", ()=>{
             .then((json) =>
             json.map(item=>{
                 document.querySelector(".card-box").innerHTML += `
-                <div class= "card" id="card">
-            <img src=${item.image}/>
+                <div class="card" id="card">
+                <img src=${item.image} />
             <h3>${item.title.slice(0, 45)}</h3>
             <p>${item.description.slice(0, 20)}...</p>
             <p>${item.price} <span>$</span></p>
