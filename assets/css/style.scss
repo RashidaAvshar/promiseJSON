@@ -8,7 +8,7 @@
 .container{
     max-width: 80%;
     margin: 10px 150px;
-    border: 1px solid salmon;
+    // border: 1px solid salmon;
     button{
         width: 200px;
         height: 50px;
@@ -17,31 +17,38 @@
         font-size: 30px;
         border: none;
         margin: 10px 450px;
+        cursor: pointer;
     }
 }
 
 .card-box{
-    width: 1200px;
+    width: 100%;
     height: 100%;
-    border: 1px solid green;
+    // border: 1px solid green;
     display: flex;
     align-items: center;
-    // justify-content: center;
     flex-wrap: wrap;
-    margin: 10px;
     .card{
         width: 250px;
         height: 320px;
-        border: 1px solid red;
         margin: 20px;
         padding: 10px;
         display: flex;
         flex-direction: column;
         align-items: center;
         border-radius: 5px;
+        background-color: rgba(236, 239, 241, 0.341);
+        cursor: pointer;
         img{
-            width: 100px;
-            height: 120px;
+            width: 150px;
+            height: 180px;
+        }
+        h3{
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        p{
+            margin-bottom: 10px;
         }
 
     }
