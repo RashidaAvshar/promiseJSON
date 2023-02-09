@@ -83,6 +83,7 @@
   width: 150px;
   height: 180px;
   border-radius: 10px;
+  margin-bottom: 5px;
 }
 .card-box .card img:hover {
   width: 180px;
@@ -103,4 +104,7 @@
 }
 .card-box .card p {
   margin-bottom: 10px;
+}
+.card-box .card p span {
+  font-weight: bold;
 }/*# sourceMappingURL=style.css.map */

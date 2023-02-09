@@ -84,6 +84,7 @@
             width: 150px;
             height: 180px;
             border-radius: 10px;
+            margin-bottom: 5px;
             &:hover{
                 width: 180px;
                 height: 210px;
@@ -105,6 +106,9 @@
         }
         p{
             margin-bottom: 10px;
+            span{
+                font-weight: bold;
+            }
         }
 
     }
